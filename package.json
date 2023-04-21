@@ -4,12 +4,17 @@
   "description": "A console application to generate projects for popular architectures using Node.js ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [
     "nodejs",
     "architect"
   ],
   "author": "bahrul-rozak",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.1.5",
+    "shelljs": "^0.8.5"
+  }
 }
