@@ -18,7 +18,7 @@ npm start
 
 You will be prompted to enter the name of the project, a short description, and the author. Then, you will be shown a menu of available architectures to choose from. Once you select an architecture, a new project will be generated in a directory with the same name as the project.
 
-# Supported Architectures
+# Supported Architectures [Expectation]
 The following architectures are currently supported:
 
 - MVC
@@ -26,27 +26,4 @@ The following architectures are currently supported:
 - MVP
 - Clean Architecture
 
-# Result
-```
-my-project/
-├── event-driven/
-│   ├── events/
-│   │   └── homeEvent.js
-│   ├── handlers/
-│   │   └── homeHandler.js
-│   └── listeners/
-│       └── homeListener.js
-├── mvc/
-│   ├── controllers/
-│   │   └── homeController.js
-│   ├── models/
-│   │   └── homeModel.js
-│   └── views/
-│       └── homeView.js
-└── microservices/
-    ├── service1/
-    │   └── index.js
-    └── service2/
-        └── index.js
 
-```
