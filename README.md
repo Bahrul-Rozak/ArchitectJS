@@ -25,3 +25,28 @@ The following architectures are currently supported:
 - MVVM
 - MVP
 - Clean Architecture
+
+# Result
+```
+my-project/
+├── event-driven/
+│   ├── events/
+│   │   └── homeEvent.js
+│   ├── handlers/
+│   │   └── homeHandler.js
+│   └── listeners/
+│       └── homeListener.js
+├── mvc/
+│   ├── controllers/
+│   │   └── homeController.js
+│   ├── models/
+│   │   └── homeModel.js
+│   └── views/
+│       └── homeView.js
+└── microservices/
+    ├── service1/
+    │   └── index.js
+    └── service2/
+        └── index.js
+
+```
