@@ -1,29 +1,37 @@
 # ArchitectJS
+
 A console application to generate projects for popular architectures using Node.js
 
 1. Installation
+
 ```
 Star and Clone the repository
 ```
+
 2. Install the dependencies:
+
 ```
 cd ArchitectJS
 npm install
 ```
 
 3. Run the following command to start the program:
+
 ```
 npm start
 ```
 
-You will be prompted to enter the name of the project, a short description, and the author. Then, you will be shown a menu of available architectures to choose from. Once you select an architecture, a new project will be generated in a directory with the same name as the project.
+<p>
+You get result like this, select your architecture
+</p>
 
-# Supported Architectures [Expectation]
-The following architectures are currently supported:
+![Alt text](image.png)
 
-- MVC
-- MVVM
-- MVP
-- Clean Architecture
+<p> Congratulations! You get your project architecture
+</p>
 
+![Alt text](image-1.png)
 
+<p>Project architecture</p>
+
+![Alt text](image-2.png)
