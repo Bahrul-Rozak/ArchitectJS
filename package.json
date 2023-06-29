@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A console application to generate projects for popular architectures using Node.js ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"

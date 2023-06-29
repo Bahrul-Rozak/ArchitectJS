@@ -1,4 +1,4 @@
-const inquirer = require("inquirer");
+import inquirer from "inquirer";
 
 const showMenu = async () => {
   const architectures = [
@@ -26,6 +26,4 @@ const showMenu = async () => {
   return answers.architecture;
 };
 
-module.exports = {
-  showMenu,
-};
+export default showMenu;

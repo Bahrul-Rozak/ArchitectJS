@@ -1,5 +1,5 @@
-const { showMenu } = require("./menu");
-const { generateArchitecture } = require("./architecture");
+import showMenu from "./menu.mjs";
+import generateArchitecture from "./architecture.mjs";
 
 const main = async () => {
   try {

@@ -1,4 +1,4 @@
-const shell = require("shelljs");
+import shell from "shelljs";
 
 const generateMVC = async () => {
   shell.mkdir("-p", "mvc/controllers");
@@ -41,6 +41,4 @@ const generateArchitecture = async (architecture) => {
   }
 };
 
-module.exports = {
-  generateArchitecture,
-};
+export default generateArchitecture;
