@@ -1,5 +1,7 @@
 # ArchitectJS
 
+![img](https://github.com/Bahrul-Rozak/ArchitectJS/blob/main/Instagram%20post%20-%202%20(2).png)
+
 A console application to generate projects for popular architectures using Node.js
 
 1. Installation
